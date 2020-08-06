@@ -27,14 +27,14 @@
             android:name=".SplashScreen"
             android:label="@string/app_name">
             <intent-filter>
-                <action android:name="com.example.shefaliupadhyaya.crbs.SplashScreen" />
+                <action android:name=".SplashScreen" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity">
             <intent-filter>
-                <action android:name="com.example.shefaliupadhyaya.crbs.MainActivity" />
+                <action android:name=".MainActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -43,7 +43,7 @@
             android:name=".Homepage"
             android:label="@string/app_name">
             <intent-filter>
-                <action android:name="com.example.shefaliupadhyaya.crbs.Homepage" />
+                <action android:name=".Homepage" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
